@@ -49,18 +49,18 @@ params:
     favicon32x32: "/images/favicon-32x32.png"
     apple_touch_icon: "/images/apple-touch-icon.png"
 
-  label:
-    text: "Piyush Deshmukh"
-    icon: /images/avatar.png
-    iconHeight: 35
+  # label:
+  #   text: "Piyush Deshmukh"
+  #   icon: /images/avatar.png
+  #   iconHeight: 35
 
   profileMode:
     enabled: true
     title: "Hey, I'm Piyush 👋"
-    subtitle: "Software Engineer · I write about backend systems, DevOps, and everything in between."
+    subtitle: "ML Enthusiast · Tech & AI"
     imageUrl: "/images/avatar.png"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 150
+    imageHeight: 150
     imageTitle: "Profile photo"
     buttons:
       - name: Blog
@@ -75,8 +75,8 @@ params:
       url: "https://www.linkedin.com/in/piyush-deshmukh-899b282b1/"
     - name: twitter
       url: "https://twitter.com/piyushsd_"
-    - name: rss
-      url: "/index.xml"
+    # - name: rss
+    #   url: "/index.xml"
 
   fuseOpts:
     isCaseSensitive: false
