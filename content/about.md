@@ -6,85 +6,58 @@ summary: "About Piyush Deshmukh"
 
 ## Who I Am
 
-<!-- TODO: replace -->
-Hi! I'm Piyush Deshmukh, a Software Engineer passionate about building reliable backend systems and developer tooling. I graduated with a degree in Computer Science and have been working in the industry ever since, tackling problems across distributed systems, cloud infrastructure, and API design. This blog is where I share what I learn — practical guides, deep dives, and the occasional opinion piece on the state of software engineering.
+I'm Piyush Deshmukh, a final-year Information Technology student at SIES Graduate School of Technology, Navi Mumbai. I work at the intersection of deep learning, computer vision, and AI — building systems that solve real problems, from detecting disaster damage in satellite imagery to translating sign language in real time.
+
+My work has been recognised at an international level — a paper I co-authored on building damage assessment was selected for an **Oral Presentation at CVR-2026**. Outside of research, I enjoy competitive programming, hackathons, and exploring the rapidly evolving landscape of Generative AI.
+
+I write on this blog to share what I learn: deep learning architectures, AI engineering, algorithm design, and anything else I find genuinely interesting.
 
 ---
 
 ## Skills
 
-<!-- TODO: replace -->
-
-| Language / Tool        | Proficiency     |
-|------------------------|-----------------|
-| Go                     | Advanced        |
-| Python                 | Advanced        |
-| TypeScript / Node.js   | Intermediate    |
-| Docker / Kubernetes    | Intermediate    |
-| PostgreSQL             | Intermediate    |
-| Redis                  | Intermediate    |
-| Linux / Bash           | Advanced        |
-| Git / GitHub Actions   | Advanced        |
-| Terraform              | Beginner        |
-| AWS (EC2, S3, RDS)     | Intermediate    |
-
----
-
-## Experience
-
-<!-- TODO: replace -->
-
-### Acme Corp — Backend Engineer | Jan 2023 – Present
-
-- Designed and implemented a high-throughput event ingestion pipeline using Go and Kafka, handling 50k+ events/sec.
-- Reduced API p99 latency by 40% through query optimisation and strategic caching with Redis.
-- Led migration of legacy monolith services to Docker-based microservices deployed on Kubernetes.
-- Mentored two junior engineers and conducted weekly code reviews.
-
-### StartupXYZ — Software Developer Intern | Jun 2022 – Dec 2022
-
-- Built REST APIs in Node.js for a SaaS product used by 200+ clients.
-- Integrated Stripe payment gateway and automated invoice generation workflows.
-- Improved CI/CD pipeline reliability by introducing automated integration tests with 85% coverage.
+| Area | Technologies |
+|------|-------------|
+| Deep Learning | PyTorch, Keras, TensorFlow |
+| Computer Vision | OpenCV, DINOv2, MediaPipe |
+| AI / LLM Tooling | LangChain, LangGraph, FastMCP |
+| Programming | Python, C / C++, SQL |
+| Core CS | Data Structures & Algorithms, OOP, Computer Networks |
 
 ---
 
 ## Projects
 
-<!-- TODO: replace -->
+### Infrastructure Change Detection in Geospatial Imagery
 
-### GoCache — In-memory LRU Cache Library
+A deep learning system that compares pre- and post-disaster satellite images to identify and classify damaged buildings. Uses **DINOv2** for feature extraction and **VM-UNet** for semantic segmentation, fine-tuned on the xBD dataset. Outputs multi-colour-coded heatmaps to represent damage severity across affected regions.
 
-A thread-safe, generic LRU cache library for Go with TTL support and pluggable eviction policies. Designed for high-concurrency workloads.
-
-**Tech stack:** Go, GitHub Actions  
-**GitHub:** [github.com/piyushd12/gocache](https://github.com/piyushd12/gocache)
+**Tech stack:** Python, PyTorch, DINOv2, VM-UNet, OpenCV  
+**GitHub:** [github.com/piyushd12](https://github.com/piyushd12/Infrastructure_Change_Detection_in_Geospatial_Imagery)
 
 ---
 
-### DevLog — Personal Logging CLI
+### Timetable Generation using Genetic Algorithm
 
-A terminal-based daily logging tool that stores structured markdown journal entries locally, with full-text search powered by SQLite FTS5.
+A constraint-satisfaction scheduler built in Python using a genetic algorithm. Generates optimal class and lab timetables under strict time and resource constraints. The fitness function penalises conflicts and rewards compact, fair schedules. Fully configurable for any number of days, time slots, courses, and departments.
 
-**Tech stack:** Go, SQLite, Cobra CLI  
-**GitHub:** [github.com/piyushd12/devlog](https://github.com/piyushd12/devlog)
+**Tech stack:** Python, Genetic Algorithms  
+**GitHub:** [github.com/piyushd12](https://github.com/piyushd12/genetic-timetable-generator)
 
 ---
 
-## Education
+### Sign Language Translation using Sequence Learning
 
-<!-- TODO: replace -->
+A real-time deep learning pipeline that translates hand gestures into text using **MediaPipe** hand tracking and **LSTM** sequence networks. Includes a custom dataset collection tool so users can record and label their own gestures — making it generalisable to any regional or custom sign language.
 
-**B.Tech in Computer Science** — Some University, 2018–2022  
-Relevant coursework: Operating Systems, Computer Networks, Database Systems, Distributed Computing, Algorithm Design.
+**Tech stack:** Python, TensorFlow, MediaPipe, LSTM, OpenCV  
+**GitHub:** [github.com/piyushd12](https://github.com/piyushd12/Sign-Language-Translation)
 
 ---
 
 ## Contact
 
-Feel free to reach out — I'm always happy to talk about interesting engineering problems!
-
-- 🐙 GitHub: [github.com/piyushd12](https://github.com/piyushd12)
-- 💼 LinkedIn: [linkedin.com/in/piyush-deshmukh-899b282b1](https://www.linkedin.com/in/piyush-deshmukh-899b282b1/)
-- 🐦 Twitter / X: [@piyushsd_](https://twitter.com/piyushsd_)
-- 📧 Email: <!-- TODO: replace with your email -->
+- 💼 LinkedIn: [piyush-deshmukh-899b282b1](https://www.linkedin.com/in/piyush-deshmukh-899b282b1/)
+- 🐦 X: [piyushsd_](https://x.com/piyushsd_)
+- 🐙 GitHub: [piyushd12](https://github.com/piyushd12)
+- 📧 Email: [piyush.deshmukh.in@gmail.com](mailto:piyush.deshmukh.in@gmail.com)
