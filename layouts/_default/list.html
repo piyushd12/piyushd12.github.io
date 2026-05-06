@@ -1,0 +1,26 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description }}</div>
+  {{- end }}
+</header>
+
+<div class="post-content simple-list">
+  {{- $pages := .Pages.ByDate.Reverse }}
+  {{- if not $pages }}
+  <p>No posts yet.</p>
+  {{- else }}
+  <ul class="simple-post-list">
+    {{- range $pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</div>
+
+{{- end }}

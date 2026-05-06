@@ -107,3 +107,57 @@ samp,
 .profile-mode p {
   font-size: 1.1rem;
 }
+
+/* ----------------------------------------------------------
+   6. Simple bullet list for Posts and Tags pages
+   ---------------------------------------------------------- */
+.simple-list {
+  margin-top: 0.5rem;
+}
+
+.simple-post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.simple-post-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.simple-post-list li:last-child {
+  border-bottom: none;
+}
+
+/* bullet dot */
+.simple-post-list li::before {
+  content: "–";
+  color: var(--primary);
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+.simple-post-list li a {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1rem;
+  flex: 1;
+  transition: opacity 0.15s ease;
+}
+
+.simple-post-list li a:hover {
+  text-decoration: underline;
+  opacity: 0.75;
+}
+
+/* date / post-count badge */
+.simple-post-list .post-date {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}

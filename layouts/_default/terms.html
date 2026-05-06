@@ -1,0 +1,23 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="post-content simple-list">
+  {{- $terms := .Data.Terms.Alphabetical }}
+  {{- if not $terms }}
+  <p>No tags yet.</p>
+  {{- else }}
+  <ul class="simple-post-list">
+    {{- range $terms }}
+    <li>
+      <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+      <span class="post-date">{{ .Count }} {{ if eq .Count 1 }}post{{ else }}posts{{ end }}</span>
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</div>
+
+{{- end }}

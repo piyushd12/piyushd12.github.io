@@ -1,0 +1,22 @@
+# Hugo build output — never commit this
+public/
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.local
+
+# Node (if you ever add npm tools)
+node_modules/

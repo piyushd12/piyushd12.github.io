@@ -100,7 +100,7 @@ params:
 menu:
   main:
     - identifier: blog
-      name: Blog
+      name: Posts
       url: /posts/
       weight: 10
     - identifier: about

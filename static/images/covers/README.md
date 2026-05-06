@@ -11,7 +11,7 @@ Place post cover images here. Naming convention:
 
 ```yaml
 cover:
-  image: /images/covers/go-api.png
+  image: static/images/Screenshot 2024-05-12 183539 (2).png
   alt: "Descriptive alt text"
   caption: "Optional caption shown below the image"
 ```
