@@ -1,0 +1,109 @@
+/* ============================================================
+   Custom CSS overrides for PaperMod
+   File: assets/css/extended/custom.css
+   ============================================================ */
+
+/* ----------------------------------------------------------
+   1. JetBrains Mono for code blocks
+   ---------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+code,
+pre,
+kbd,
+samp,
+.highlight,
+.highlight pre,
+.highlight code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace !important;
+  font-size: 0.875rem;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* ----------------------------------------------------------
+   2. Slightly wider content area (750px → 800px)
+   ---------------------------------------------------------- */
+.main {
+  max-width: 800px;
+}
+
+/* Also widen the post single content */
+.post-single .post-content {
+  max-width: 800px;
+}
+
+/* ----------------------------------------------------------
+   3. About page skills table — alternating row colors
+      using PaperMod CSS variables
+   ---------------------------------------------------------- */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.post-content table thead tr {
+  background-color: var(--primary);
+  color: var(--theme);
+  text-align: left;
+}
+
+.post-content table th,
+.post-content table td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Alternating row colors */
+.post-content table tbody tr:nth-child(even) {
+  background-color: var(--code-bg);
+}
+
+.post-content table tbody tr:nth-child(odd) {
+  background-color: var(--theme);
+}
+
+.post-content table tbody tr:hover {
+  background-color: var(--secondary);
+  transition: background-color 0.15s ease;
+}
+
+/* ----------------------------------------------------------
+   4. External links in post content — subtle ↗ icon
+   ---------------------------------------------------------- */
+.post-content a[href^="http"]::after,
+.post-content a[href^="https"]::after {
+  content: " ↗";
+  font-size: 0.75em;
+  opacity: 0.65;
+  display: inline-block;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.post-content a[href^="http"]:hover::after,
+.post-content a[href^="https"]:hover::after {
+  opacity: 1;
+  transform: translate(1px, -1px);
+}
+
+/* Don't apply to image links or internal-looking anchors */
+.post-content a[href^="http"] img ~ ::after {
+  content: none;
+}
+
+/* ----------------------------------------------------------
+   5. Profile mode subtitle — slightly larger
+   ---------------------------------------------------------- */
+.profile-mode .profile-subtitle,
+#profile-subtitle {
+  font-size: 1.1rem;
+}
+
+/* Also target the generic subtitle paragraph under profile */
+.profile-mode p {
+  font-size: 1.1rem;
+}

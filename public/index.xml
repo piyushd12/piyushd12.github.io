@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blog Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Blog Site</description>
-    <image>
-      <title>Blog Site</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.156.0</generator>
+    <title>Piyush Deshmukh</title>
+    <link>http://localhost:43533/</link>
+    <description>Recent content on Piyush Deshmukh</description>
+    <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 24 Feb 2026 22:58:41 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43533/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/pages/about/about/</link>
+      <link>http://localhost:43533/pages/about/about/</link>
       <pubDate>Tue, 24 Feb 2026 22:58:41 +0530</pubDate>
-      <guid>http://localhost:1313/pages/about/about/</guid>
+      <guid>http://localhost:43533/pages/about/about/</guid>
       <description>&lt;h2 id=&#34;hi-im-piyush-deshmukh-&#34;&gt;Hi, I&amp;rsquo;m Piyush Deshmukh 👋&lt;/h2&gt;
 &lt;p&gt;Welcome to my blog! I&amp;rsquo;m a [your profession/role] passionate about [your interests].&lt;/p&gt;
 &lt;hr&gt;
@@ -64,10 +59,38 @@ code and sharing knowledge with the community.&lt;/p&gt;</description>
     </item>
     <item>
       <title>FIRST POST 1</title>
-      <link>http://localhost:1313/posts/first/</link>
+      <link>http://localhost:43533/posts/first/</link>
       <pubDate>Tue, 24 Feb 2026 21:13:17 +0530</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
+      <guid>http://localhost:43533/posts/first/</guid>
       <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>Docker Compose for Local Development</title>
+      <link>http://localhost:43533/posts/sample-post-devops/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43533/posts/sample-post-devops/</guid>
+      <description>How to use Docker Compose to set up a reproducible local dev environment.</description>
+    </item>
+    <item>
+      <title>Building a REST API in Go from Scratch</title>
+      <link>http://localhost:43533/posts/sample-post-go/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43533/posts/sample-post-go/</guid>
+      <description>A step-by-step guide to building a REST API using Go&amp;#39;s net/http package.</description>
+    </item>
+    <item>
+      <title>Hello World — Why I Started This Blog</title>
+      <link>http://localhost:43533/posts/hello-world/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43533/posts/hello-world/</guid>
+      <description>The story of why I decided to start writing publicly about tech.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:43533/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43533/about/</guid>
+      <description>About Piyush Deshmukh</description>
     </item>
   </channel>
 </rss>

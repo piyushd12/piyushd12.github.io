@@ -1,0 +1,137 @@
+baseURL: "https://piyushsdk.dev/"
+title: "Piyush Deshmukh"
+paginate: 10
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "Piyush Deshmukh"
+  description: "Technical blog and portfolio of Piyush Deshmukh"
+  keywords: [Blog, Portfolio, Tech, Engineering]
+  author: "Piyush Deshmukh"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  ShowToc: true
+  TocOpen: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+
+  assets:
+    favicon: "/images/favicon.ico"
+    favicon16x16: "/images/favicon-16x16.png"
+    favicon32x32: "/images/favicon-32x32.png"
+    apple_touch_icon: "/images/apple-touch-icon.png"
+
+  label:
+    text: "Piyush Deshmukh"
+    icon: /images/avatar.png
+    iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: "Hey, I'm Piyush 👋"
+    subtitle: "Software Engineer · I write about backend systems, DevOps, and everything in between."
+    imageUrl: "/images/avatar.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Profile photo"
+    buttons:
+      - name: Blog
+        url: /posts
+      - name: About
+        url: /about
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/piyushd12"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/piyush-deshmukh-899b282b1/"
+    - name: twitter
+      url: "https://twitter.com/piyushsd_"
+    - name: rss
+      url: "/index.xml"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+taxonomies:
+  tag: tags
+  category: categories
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai

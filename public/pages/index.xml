@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Piyush Deshmukh</title>
+    <link>http://localhost:43533/pages/</link>
+    <description>Recent content in Pages on Piyush Deshmukh</description>
+    <generator>Hugo -- 0.161.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Feb 2026 22:58:41 +0530</lastBuildDate>
+    <atom:link href="http://localhost:43533/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:43533/pages/about/about/</link>
+      <pubDate>Tue, 24 Feb 2026 22:58:41 +0530</pubDate>
+      <guid>http://localhost:43533/pages/about/about/</guid>
+      <description>&lt;h2 id=&#34;hi-im-piyush-deshmukh-&#34;&gt;Hi, I&amp;rsquo;m Piyush Deshmukh 👋&lt;/h2&gt;
+&lt;p&gt;Welcome to my blog! I&amp;rsquo;m a [your profession/role] passionate about [your interests].&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h2&gt;
+&lt;p&gt;I spend my time working on things I love:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💻 &lt;strong&gt;Writing Code&lt;/strong&gt; — Building web apps, tools, and open-source projects&lt;/li&gt;
+&lt;li&gt;✍️ &lt;strong&gt;Writing Articles&lt;/strong&gt; — Sharing what I learn about tech, development, and life&lt;/li&gt;
+&lt;li&gt;📚 &lt;strong&gt;Reading &amp;amp; Learning&lt;/strong&gt; — Always exploring new ideas and technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-skills&#34;&gt;My Skills&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Area&lt;/th&gt;
+          &lt;th&gt;Technologies&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Frontend&lt;/td&gt;
+          &lt;td&gt;HTML, CSS, JavaScript, React&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Backend&lt;/td&gt;
+          &lt;td&gt;Node.js, Python, Go&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tools &amp;amp; DevOps&lt;/td&gt;
+          &lt;td&gt;Git, Docker, Linux, CI/CD&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Databases&lt;/td&gt;
+          &lt;td&gt;PostgreSQL, MongoDB, Redis&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;
+&lt;p&gt;I started my journey in tech back in &lt;strong&gt;[year]&lt;/strong&gt;. Since then, I&amp;rsquo;ve worked on everything from
+small personal projects to large-scale applications. I believe in writing clean, maintainable
+code and sharing knowledge with the community.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

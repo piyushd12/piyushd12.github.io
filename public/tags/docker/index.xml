@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on Piyush Deshmukh</title>
+    <link>http://localhost:43533/tags/docker/</link>
+    <description>Recent content in Docker on Piyush Deshmukh</description>
+    <generator>Hugo -- 0.161.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:43533/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Compose for Local Development</title>
+      <link>http://localhost:43533/posts/sample-post-devops/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43533/posts/sample-post-devops/</guid>
+      <description>How to use Docker Compose to set up a reproducible local dev environment.</description>
+    </item>
+  </channel>
+</rss>
