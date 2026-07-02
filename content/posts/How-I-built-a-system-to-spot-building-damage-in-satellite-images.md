@@ -2,8 +2,8 @@
 title: "How I Built a System to Spot Building Damage in Satellite Images"
 date: 2026-07-02T22:39:52+05:30
 draft: false
-tags: []
-categories: []
+tags: ['Research']
+categories: ['Machine Learning', 'Computer Vision', 'Remote Sensing']
 description: ""
 showToc: true
 cover:
